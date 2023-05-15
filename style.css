@@ -28,7 +28,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-right: 190px;
-    
+    text-transform: capitalize;
 }
 
 nav ul li a {
