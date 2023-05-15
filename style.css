@@ -9,10 +9,16 @@ body {
     line-height: 1.5;
 }
 
+body {
+    background-image: url("istockphoto-1271962351-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
 header {
-    background-color: pink;
     color: black;
-    padding: 20px;
+    padding: 0px;
 }
 
 nav ul {
@@ -21,7 +27,8 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 200px;
+    margin-right: 190px;
+    
 }
 
 nav ul li a {
@@ -29,12 +36,22 @@ nav ul li a {
     text-decoration: none;
 }
 
+.nav-item {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+  }
+
 main {
     padding: 40px;
 }
 
 footer {
-    background-color: pink;
     color: black;
     padding: 20px;
     text-align: center;
