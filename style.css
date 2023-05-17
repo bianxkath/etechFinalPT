@@ -18,7 +18,8 @@ body {
 
 header {
     color: black;
-    padding: 0px;
+    padding: 20px;
+    margin: 0px;
 }
 
 nav ul {
